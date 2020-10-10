@@ -2,6 +2,7 @@ import React from 'react';
 import styled, {ThemeProvider} from "styled-components";
 import theme from "./styles/global"
 import Divider from "./components/Divider"
+import Image from "./components/Image"
 
 const Container = styled.div`
   display: flex;
@@ -29,7 +30,9 @@ function App() {
   return (
     <ThemeProvider theme={theme} >
       <Container>
-        <LeftContent>left content</LeftContent>
+        <LeftContent>
+          <Image />
+        </LeftContent>
         <RightContent>
           <h1>Lucas Cifuentes</h1>
           <Divider />
