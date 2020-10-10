@@ -1,8 +1,10 @@
 import React from 'react';
 import styled, {ThemeProvider} from "styled-components";
 import theme from "./styles/global"
+
 import Divider from "./components/Divider"
 import Image from "./components/Image"
+import Contact from "./components/Contact"
 
 const Container = styled.div`
   display: flex;
@@ -12,7 +14,7 @@ const Container = styled.div`
 const LeftContent = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 0.5rem;
   height: 100vh;
   width: 300px;
   background-color: ${props => props.theme.background };
@@ -33,6 +35,7 @@ function App() {
       <Container>
         <LeftContent>
           <Image />
+          <Contact />
         </LeftContent>
         <RightContent>
           <h1>Lucas Cifuentes</h1>
