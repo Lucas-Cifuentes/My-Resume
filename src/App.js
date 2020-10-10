@@ -11,7 +11,8 @@ const Container = styled.div`
 
 const LeftContent = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   width: 300px;
   background-color: ${props => props.theme.background };
