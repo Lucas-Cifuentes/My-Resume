@@ -4,7 +4,8 @@ import styled from "styled-components";
 const DividerLine = styled.div`
   display: flex;
   border-top: 1px solid ${props => props.props.secondary ? props.theme.secondary : props.theme.primary};
-  width: 25%;
+  width: 50%;
+  margin-bottom: 0.5rem;
 `
 
 const Divider = (props) => <DividerLine props={props} />;
