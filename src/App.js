@@ -14,7 +14,7 @@ const LeftContent = styled.div`
   height: 100vh;
   width: 300px;
   background-color: ${props => props.theme.background };
-  color: #b0bec5;
+  color: ${props => props.theme.secondary};
 `
 
 const RightContent = styled.div`
