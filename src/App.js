@@ -7,6 +7,9 @@ import Image from "./components/Image"
 import Contact from "./components/Contact"
 import SocialMedia from "./components/SocialMedia"
 import Skills from "./components/Skills"
+import Description from "./components/Description"
+import WorkExperience from "./components/WorkExperience"
+import Education from "./components/Education";
 
 const Container = styled.div`
   display: flex;
@@ -17,7 +20,6 @@ const LeftContent = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 0.5rem;
-  height: 100% && 100vh;
   width: 300px;
   background-color: ${props => props.theme.background };
   color: ${props => props.theme.secondary};
@@ -27,8 +29,8 @@ const RightContent = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-left: 3rem;
-  height: 100vh;
+  padding-left: 3rem;
+  background-color: #fafafa;
 `
 
 function App() {
@@ -44,6 +46,9 @@ function App() {
         <RightContent>
           <h1>Lucas Cifuentes</h1>
           <Divider />
+          <Description />
+          <WorkExperience />
+          <Education />
         </RightContent>
       </Container>
       </ThemeProvider>
