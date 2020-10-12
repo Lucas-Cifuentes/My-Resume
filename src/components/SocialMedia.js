@@ -26,7 +26,7 @@ const SocialMedia = () => {
     <>
       <Title>Social Media</Title>
       <Divider secondary />
-      <Item><i class="fab fa-linkedin"></i> <Text>lucascifuentes</Text></Item>
+      <Item><i class="fab fa-linkedin"></i> <Text>@lucascifuentes</Text></Item>
       <Item><i class="fab fa-github"></i> <Text>Lucas-Cifuentes</Text></Item>
     </>
   )
