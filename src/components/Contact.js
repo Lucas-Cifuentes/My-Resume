@@ -13,6 +13,9 @@ const Item = styled.div`
   flex-direction: row;
   align-items: center;
   margin-bottom: 0.5rem;
+  i{
+    font-size: 1.2rem;
+  }
 `
 
 const Text = styled.span`
