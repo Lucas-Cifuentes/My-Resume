@@ -5,6 +5,8 @@ import theme from "./styles/global"
 import Divider from "./components/Divider"
 import Image from "./components/Image"
 import Contact from "./components/Contact"
+import SocialMedia from "./components/SocialMedia"
+import Skills from "./components/Skills"
 
 const Container = styled.div`
   display: flex;
@@ -15,7 +17,7 @@ const LeftContent = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 0.5rem;
-  height: 100vh;
+  height: 100% && 100vh;
   width: 300px;
   background-color: ${props => props.theme.background };
   color: ${props => props.theme.secondary};
@@ -36,6 +38,8 @@ function App() {
         <LeftContent>
           <Image />
           <Contact />
+          <SocialMedia />
+          <Skills />
         </LeftContent>
         <RightContent>
           <h1>Lucas Cifuentes</h1>
