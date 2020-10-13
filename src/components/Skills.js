@@ -55,7 +55,7 @@ const Skills = () => {
       </Rating>
       </Item>
       <Item>
-      <Text>MongoDB </Text>
+      <Text>Angular 8+ </Text>
       <Rating>
         <i class="fas fa-circle"></i>
         <i class="fas fa-circle"></i>
@@ -65,11 +65,21 @@ const Skills = () => {
       </Rating>
       </Item>
       <Item>
+      <Text>MongoDB </Text>
+      <Rating>
+        <i class="fas fa-circle"></i>
+        <i class="fas fa-circle"></i>
+        <i class="far fa-circle"></i>
+        <i class="far fa-circle"></i>
+        <i class="far fa-circle"></i>
+      </Rating>
+      </Item>
+      <Item>
       <Text>NodeJs </Text>
       <Rating>
         <i class="fas fa-circle"></i>
         <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
+        <i class="far fa-circle"></i>
         <i class="far fa-circle"></i>
         <i class="far fa-circle"></i>
       </Rating>
