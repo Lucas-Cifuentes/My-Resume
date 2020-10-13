@@ -1,24 +1,17 @@
 import React from 'react'
 import styled from "styled-components"
 
-import Divider from "./Divider";
-import Title from "./Title";
-
 const DescriptionStyled = styled.p`
   color: ${props => props.theme.text};
+  font-size: ${props => props.props.size ? props.props.size : null };
+  margin: 0.5rem 0;
 `
 
-const Description = () => {
+const Description = (props) => {
   return (
-    <>
-    <Title text="Frontend Developer" />
-    <DescriptionStyled>
-      Apasionado por el mundo de la tecnología, en especial la programación. 
-      Eh trabajado de forma freelance en varios projectos.
-      Nunca paro de aprender y me manejo muy bien en los trabajos en grupo
+    <DescriptionStyled props={props}>
+      {props.children}
     </DescriptionStyled>
-    <Divider large />
-    </>
   )
 }
 
