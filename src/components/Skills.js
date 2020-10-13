@@ -65,6 +65,16 @@ const Skills = () => {
       </Rating>
       </Item>
       <Item>
+      <Text>Firebase </Text>
+      <Rating>
+        <i class="fas fa-circle"></i>
+        <i class="fas fa-circle"></i>
+        <i class="fas fa-circle"></i>
+        <i class="far fa-circle"></i>
+        <i class="far fa-circle"></i>
+      </Rating>
+      </Item>
+      <Item>
       <Text>MongoDB </Text>
       <Rating>
         <i class="fas fa-circle"></i>
