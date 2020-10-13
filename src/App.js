@@ -7,7 +7,7 @@ import Image from "./components/Image"
 import Contact from "./components/Contact"
 import SocialMedia from "./components/SocialMedia"
 import Skills from "./components/Skills"
-import Description from "./components/Description"
+import AboutMe from "./components/AboutMe"
 import WorkExperience from "./components/WorkExperience"
 import Education from "./components/Education";
 
@@ -46,7 +46,7 @@ function App() {
         <RightContent>
           <h1>Lucas Cifuentes</h1>
           <Divider />
-          <Description />
+          <AboutMe />
           <WorkExperience />
           <Education />
         </RightContent>
