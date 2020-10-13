@@ -21,13 +21,18 @@ const Text = styled.span`
   margin-left: 0.5rem;
 `
 
+const Link = styled.a`
+  text-decoration: none;
+  color: ${props => props.theme.secondary};
+`
+
 const SocialMedia = () => {
   return (
     <>
       <Title>Social Media</Title>
       <Divider secondary />
-      <Item><i class="fab fa-linkedin"></i> <Text>@lucascifuentes</Text></Item>
-      <Item><i class="fab fa-github"></i> <Text>Lucas-Cifuentes</Text></Item>
+      <Item><i class="fab fa-linkedin"></i> <Link href="https://www.linkedin.com/in/lucascifuentes/" target="_blank" ><Text>@lucascifuentes</Text></Link></Item>
+      <Item><i class="fab fa-github"></i> <Link href="https://github.com/Lucas-Cifuentes" target="_blank" > <Text>Lucas-Cifuentes</Text></Link></Item>
     </>
   )
 }

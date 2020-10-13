@@ -2,21 +2,15 @@ import React from 'react'
 import styled from "styled-components"
 import Divider from "./Divider"
 import Title from "./Title";
-
-// const Title = styled.h2`
-//   margin-top: 0;
-//   margin-bottom: 0.5rem;
-//   color: ${props => props.theme.text};
-// `
+import Description from "./Description";
 
 const Subtitle = styled(Title)`
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 `
 
-const Description = styled.p`
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+const Link = styled.a`
+  text-decoration: none;
   color: ${props => props.theme.text};
 `
 
@@ -33,16 +27,16 @@ const WorkExperience = () => {
         and delete images and modify texts
       </Description>
       <Description>
-          <a 
+          <Link 
           href="https://buenavista-b8fa2.web.app/" 
           target="_blank">
             (Go to example)
-            </a>
-          <a 
+            </Link>
+          <Link 
           href="https://github.com/Lucas-Cifuentes/BuenaVistaWeb" 
           target="_blank"> 
           (GitHub repository)
-          </a>
+          </Link>
       </Description>
       <Title text="Oleohidráulica Nico" />
       <Description>
@@ -53,16 +47,16 @@ const WorkExperience = () => {
         location
       </Description>
       <Description>
-          <a 
-          href="https://oleohidraulicanico.com/" 
+          <Link 
+          href="https://oleohidraulicanico-49a68.web.app/" 
           target="_blank">
             (Go to example)
-          </a>
-          <a 
+          </Link>
+          <Link 
           href="https://github.com/Lucas-Cifuentes/HidraulicaWeb" 
           target="_blank">
             (GitHub repository)
-          </a>
+          </Link>
           </Description>
       <Divider large />
     </>
