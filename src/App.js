@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, {ThemeProvider} from "styled-components";
-import theme from "./styles/global"
+import theme from "./styles/theme"
 
 import Divider from "./components/Divider"
 import Image from "./components/Image"
