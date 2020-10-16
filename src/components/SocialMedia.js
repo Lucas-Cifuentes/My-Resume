@@ -31,8 +31,8 @@ const SocialMedia = () => {
     <>
       <Title>Social Media</Title>
       <Divider secondary />
-      <Item><i class="fab fa-linkedin"></i> <Link href="https://www.linkedin.com/in/lucascifuentes/" target="_blank" ><Text>@lucascifuentes</Text></Link></Item>
-      <Item><i class="fab fa-github"></i> <Link href="https://github.com/Lucas-Cifuentes" target="_blank" > <Text>Lucas-Cifuentes</Text></Link></Item>
+      <Item><i className="fab fa-linkedin"></i> <Link href="https://www.linkedin.com/in/lucascifuentes/" target="_blank" ><Text>@lucascifuentes</Text></Link></Item>
+      <Item><i className="fab fa-github"></i> <Link href="https://github.com/Lucas-Cifuentes" target="_blank" > <Text>Lucas-Cifuentes</Text></Link></Item>
     </>
   )
 }

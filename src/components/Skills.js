@@ -37,61 +37,71 @@ const Skills = () => {
       <Item>
       <Text>JavaScript </Text>
       <Rating>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="far fa-circle"></i>
       </Rating>
       </Item>
       <Item>
       <Text>React </Text>
       <Rating>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="far fa-circle"></i>
+      </Rating>
+      </Item>
+      <Item>
+      <Text>React Native</Text>
+      <Rating>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="far fa-circle"></i>
+        <i className="far fa-circle"></i>
       </Rating>
       </Item>
       <Item>
       <Text>Angular 8+ </Text>
       <Rating>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i>
-        <i class="far fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="far fa-circle"></i>
+        <i className="far fa-circle"></i>
       </Rating>
       </Item>
       <Item>
       <Text>Firebase </Text>
       <Rating>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i>
-        <i class="far fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="far fa-circle"></i>
+        <i className="far fa-circle"></i>
       </Rating>
       </Item>
       <Item>
       <Text>MongoDB </Text>
       <Rating>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i>
-        <i class="far fa-circle"></i>
-        <i class="far fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="far fa-circle"></i>
+        <i className="far fa-circle"></i>
+        <i className="far fa-circle"></i>
       </Rating>
       </Item>
       <Item>
       <Text>NodeJs </Text>
       <Rating>
-        <i class="fas fa-circle"></i>
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i>
-        <i class="far fa-circle"></i>
-        <i class="far fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="fas fa-circle"></i>
+        <i className="far fa-circle"></i>
+        <i className="far fa-circle"></i>
+        <i className="far fa-circle"></i>
       </Rating>
       </Item>
     </>

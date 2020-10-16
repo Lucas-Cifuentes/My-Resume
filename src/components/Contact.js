@@ -28,13 +28,13 @@ const Contact = () => {
       <Title>Contact</Title>
       <Divider secondary />
       <Item>
-      <i class="fas fa-mobile-alt"></i> <Text>+54 2236017890</Text>
+      <i className="fas fa-mobile-alt"></i> <Text>+54 2236017890</Text>
       </Item>
       <Item>
-      <i class="fas fa-envelope"></i> <Text>lucasdcifuentes@gmail.com</Text>
+      <i className="fas fa-envelope"></i> <Text>lucasdcifuentes@gmail.com</Text>
       </Item>
       <Item>
-      <i class="fas fa-map-marker-alt"></i> <Text>Mar del Plata, Argentina</Text>
+      <i className="fas fa-map-marker-alt"></i> <Text>Mar del Plata, Argentina</Text>
       </Item>
     </>
   )
