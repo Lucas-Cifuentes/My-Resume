@@ -10,9 +10,9 @@ const AboutMe = () => {
     <>
     <Title text="Frontend Developer" />
     <Description>
-      Apasionado por el mundo de la tecnología, en especial la programación. 
-      Eh trabajado de forma freelance en varios projectos.
-      Nunca paro de aprender y me manejo muy bien en los trabajos en grupo
+      Passionate about the world of technology, especially programming. 
+      I have worked freelance on various projects. 
+      I never stop learning and I manage very well in group work
     </Description>
     <Divider large />
     </>
