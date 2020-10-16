@@ -4,14 +4,9 @@ import Divider from "./Divider"
 import Title from "./Title";
 import Description from "./Description";
 
-const Subtitle = styled(Title)`
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-`
-
 const Link = styled.a`
   text-decoration: none;
-  color: ${props => props.theme.text};
+  color: ${props => props.theme.primary};
 `
 
 const WorkExperience = () => {
@@ -21,7 +16,7 @@ const WorkExperience = () => {
       <Title text="Freelance" />
       <Title text="Buenavista" />
       <Description>
-        It consisted in the realization of a web application made in 
+        It consisted in the realization of a web page made in 
         React, Materialize and Firebase ("reactfire") which contains 
         private and public routes and an administrator panel to upload 
         and delete images and modify texts
