@@ -13,6 +13,7 @@ const LeftContentStyed = styled.div`
   width: ${props => props.width < 600 ? "100%" : "18rem" };
   background-color: ${props => props.theme.background };
   color: ${props => props.theme.secondary};
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 `
 
 const Title = styled.h2`
